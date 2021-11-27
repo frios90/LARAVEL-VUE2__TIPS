@@ -1,0 +1,132 @@
+.pagination {
+    margin-top :20px!important;
+  } 
+.actions {
+    color: #f5a623 !important;
+    cursor: pointer;
+}
+.mantainer {
+    margin: 25px 80px 25px 80px!important;
+    background-color: #323F4F;
+    padding-bottom: 25px!important;
+}
+.mantainer-navegation{
+    margin-left: 30px;
+    font-size: 14px!important;
+
+}
+.mantainer-container-table{
+    margin: 0px 80px 25px 80px!important;
+ 
+}
+.head { 
+    margin: 20px 80px 5px 80px!important;
+    padding-top: 25px;
+    display: grid; 
+    grid-template-columns: 3fr 1fr; 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.head-div1 { grid-area: 1 / 1 / 2 / 2; } 
+.head-div2 { grid-area: 1 / 2 / 2 / 3;}
+
+.head-create { 
+    margin: 5px 80px 5px 80px!important;
+    padding-top: 25px;
+    display: grid; 
+    grid-template-columns: 3fr 1fr; 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.mantainer-btn-navigation{
+    font-size: 12px!important;
+    color:  #f5a623 !important; 
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px; 
+    border: 0px solid #000000;
+}
+
+.mantainer-btn-navigation:hover{
+    background-color: #f5a623 !important;
+    color: whitesmoke !important;
+    transition-duration: 0.4s;
+    -webkit-box-shadow: 10px 10px 91px -3px rgba(189, 129, 10, 1);
+    -moz-box-shadow: 10px 10px 91px -3px rgba(189, 129, 10, 1);
+    box-shadow: 10px 10px 91px -3px rgba(189, 129, 10, 1);
+}
+
+
+
+.VuePagination__count {
+    margin-top: 15px;
+    color: whitesmoke;
+}
+[name~=limit] 
+{   
+     padding: 0px 10px 0px 10px!important;
+}
+
+.mantainer-pointer {
+    cursor: pointer!important;
+}
+.mantainer-in-here {
+    color: #f5a623 !important;
+}
+.mantainer-btn-check-event{
+    float: right;
+    color: #2EFE2E;
+    font-size: 30px;
+    cursor: pointer;
+}
+.mantainer-btn-cancel-event{
+    float: right;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+
+.mantainer-info{
+    color: #f5a623 !important;   
+    font-size: 10px;
+    cursor: pointer;
+
+}
+
+.mantainer-input {
+    height: 30px!important;
+    padding: 0px!important;
+    padding-left: 10px!important;
+}
+.mantainer-input:disabled {
+    color: whitesmoke;
+    background-color: #202020 !important;
+  }
+.errors {
+    font-size: 10px;
+    color: white;
+    background-color: #A43427!important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+}
+
+.mantainer-divisor {
+    margin-left:15px;
+    margin-right:15px;
+    border-color: #f5a623 !important; 
+}
+

@@ -1,0 +1,11 @@
+@media (max-width:768px) {
+    .navbar {
+      height: 100px!important;
+    }
+    .mantainer-home {
+        margin: 0px!important;
+    }
+    .card-percentage{
+        width: 350px!important;
+    }
+  }

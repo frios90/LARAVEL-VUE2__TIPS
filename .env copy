@@ -1,0 +1,16 @@
+APP_ENV=local
+APP_DEBUG=production
+APP_KEY=base64:xqILBR8hrqpVuDuPJW+V77/+GK5rX+F9YQGpzI7hHG8=
+APP_URL=localhost:8000
+
+DB_CONNECTION="mysql"
+DB_HOST="localhost"
+DB_PORT=3306
+DB_DATABASE="rapitips_db"
+DB_USERNAME="rapitips_usr"
+DB_PASSWORD="FejhuRapitipsDesarrollos"
+
+APP_LOG_LEVEL=info
+
+DATA_FROM_PRODUCTION='true'
+SAMTECH_SEND_MAIL='true'

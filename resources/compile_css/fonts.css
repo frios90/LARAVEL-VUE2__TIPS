@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    src:  url(webfonts/FONT1.ttf);
+  }
+  @font-face {
+    font-family: 'Wallpoet';
+    font-style: normal;
+    font-weight: 400;
+    src:  url(webfonts/font2.ttf);
+  }
+  
+.mantainer-home {
+  font-family: Audiowide;
+}
+.title-nav{
+    color: #f5a623;
+     font-family: Wallpoet;
+     font-size: 35px; 
+     font-weight: 400; 
+     line-height: 26.4px; 
+}
+.subtitle-nav{
+     color: white;
+     font-family: Audiowide;
+     font-size: 12px; 
+     line-height: 26.4px; 
+}
+
+.mantainer-title{
+    font-family: 'Audiowide';
+    color: whitesmoke; 
+    font-size: 25px;   
+}
+
+.nav-font {
+    font-family: 'Audiowide';
+    font-size: 18px;   
+}
+
+body {
+    font-family: Audiowide;
+}
+
+.swal2-modal{
+    background-color: #394f62 !important;
+     border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border: 0px solid #000000;
+  
+  }
+  .swal2-title{
+    color: white!important;
+    font-size: 18px!important;
+      font-weight: bold;
+  }
+  .swal2-content{
+    color: white!important;
+    font-size: 14px!important;
+  }
+  .swal2-icon{
+    color: #f5a623 !important;
+  }
+  
+  .swal2-confirm {
+    background-color: #53c491!important; 
+  }
+  
+  .swal2-cancel{
+    background-color: #b83e3e!important;
+    
+  }
+
+  .loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('radar.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}  
+
